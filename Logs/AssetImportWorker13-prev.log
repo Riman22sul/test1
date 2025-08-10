@@ -1,0 +1,1525 @@
+Using pre-set license
+Built from '6000.0/staging' branch; Version is '6000.0.53f1 (283510a092d9) revision 2635024'; Using compiler version '193933523'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26100) 64bit Core' Language: 'en' Physical Memory: 32436 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+Date: 2025-08-10T09:09:30Z
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.0.53f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker13
+-projectPath
+C:/Users/zzzrr/OneDrive/Desktop/U/test 1
+-logFile
+Logs/AssetImportWorker13.log
+-srvPort
+60701
+-job-worker-count
+5
+-background-job-worker-count
+8
+-gc-helper-count
+1
+Successfully changed project path to: C:/Users/zzzrr/OneDrive/Desktop/U/test 1
+C:/Users/zzzrr/OneDrive/Desktop/U/test 1
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [14044]  Target information:
+
+Player connection [14044]  * "[IP] 10.20.64.181 [Port] 0 [Flags] 2 [Guid] 1147663778 [EditorId] 1147663778 [Version] 1048832 [Id] WindowsEditor(7,Rimans) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [14044] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [14044] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 5
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 3.13 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.0.53f1 (283510a092d9)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.0.53f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/zzzrr/OneDrive/Desktop/U/test 1/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) Iris(R) Xe Graphics (ID=0x46a8)
+    Vendor:   Intel
+    VRAM:     16218 MB
+    Driver:   31.0.101.4502
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.0.53f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.0.53f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.0.53f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56952
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.53f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.006287 seconds.
+- Loaded All Assemblies, in  0.551 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.680 seconds
+Domain Reload Profiling: 1225ms
+	BeginReloadAssembly (189ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (54ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (77ms)
+	LoadAllAssembliesAndSetupDomain (211ms)
+		LoadAssemblies (182ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (207ms)
+			TypeCache.Refresh (205ms)
+				TypeCache.ScanAssembly (192ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (680ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (614ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (43ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (123ms)
+			ProcessInitializeOnLoadAttributes (359ms)
+			ProcessInitializeOnLoadMethodAttributes (82ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.170 seconds
+Refreshing native plugins compatible for Editor in 0.87 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.087 seconds
+Domain Reload Profiling: 2244ms
+	BeginReloadAssembly (277ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (7ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (44ms)
+	RebuildCommonClasses (56ms)
+	RebuildNativeTypeToScriptingClass (19ms)
+	initialDomainReloadingComplete (73ms)
+	LoadAllAssembliesAndSetupDomain (733ms)
+		LoadAssemblies (550ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (332ms)
+			TypeCache.Refresh (245ms)
+				TypeCache.ScanAssembly (225ms)
+			BuildScriptInfoCaches (68ms)
+			ResolveRequiredComponents (15ms)
+	FinalizeReload (1087ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (822ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (7ms)
+			BeforeProcessingInitializeOnLoad (270ms)
+			ProcessInitializeOnLoadAttributes (478ms)
+			ProcessInitializeOnLoadMethodAttributes (57ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
+Refreshing native plugins compatible for Editor in 1.05 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 199 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5983 unused Assets / (5.8 MB). Loaded Objects now: 6638.
+Memory consumption went from 157.7 MB to 152.0 MB.
+Total: 10.307400 ms (FindLiveObjects: 0.796300 ms CreateObjectMapping: 0.899600 ms MarkObjects: 5.188100 ms  DeleteObjects: 3.422000 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 617095.869077 seconds.
+  path: Assets/Free Wood Door Pack/Prefab/Wood/Door_3/Door_3_Brown.prefab
+  artifactKey: Guid(83b0e1aa6fd302d48bf48b1a30f9031c) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/Free Wood Door Pack/Prefab/Wood/Door_3/Door_3_Brown.prefab using Guid(83b0e1aa6fd302d48bf48b1a30f9031c) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: '32b8af9244da4478c046a095d0349d80') in 0.2576934 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 27
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Free Wood Door Pack/Materials/Door_1_Materials/Door_1_Venge.mat
+  artifactKey: Guid(7cd5b075182c9144e91efbddc1039659) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Free Wood Door Pack/Materials/Door_1_Materials/Door_1_Venge.mat using Guid(7cd5b075182c9144e91efbddc1039659) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '50628c07c04b372be31fedf1d91d9f16') in 0.1084873 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Free Wood Door Pack/Prefab/Wood/Door_5/Door_5_Black.prefab
+  artifactKey: Guid(7813b0adcc8b7bd42a85149ab445129f) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/Free Wood Door Pack/Prefab/Wood/Door_5/Door_5_Black.prefab using Guid(7813b0adcc8b7bd42a85149ab445129f) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: '674caeb6273238e29c0e9a9d1c7d98a4') in 0.0342308 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 27
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Free Wood Door Pack/Materials/Door_5_Materials/Door_5_Milk.mat
+  artifactKey: Guid(a29e6bc22e0d9414e908b61b64ca151c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Free Wood Door Pack/Materials/Door_5_Materials/Door_5_Milk.mat using Guid(a29e6bc22e0d9414e908b61b64ca151c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3d3c83663272b11accf5af76e19d8827') in 0.0333257 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Free Wood Door Pack/Prefab/Wood/Door_3/Door_3_Yellow.prefab
+  artifactKey: Guid(93aa57c473e4a58409e5b960c037c3f0) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Free Wood Door Pack/Prefab/Wood/Door_3/Door_3_Yellow.prefab using Guid(93aa57c473e4a58409e5b960c037c3f0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd23eedd31b35787b6aff9e7273648f86') in 0.036765 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 25
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Free Wood Door Pack/Materials
+  artifactKey: Guid(a8c48778ee7c2c448b35faf205e79890) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Free Wood Door Pack/Materials using Guid(a8c48778ee7c2c448b35faf205e79890) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3674b0dcefe777a2f4cf60b4ac2e1973') in 0.0191347 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Free Wood Door Pack/Prefab/Wood/Door_14/Door_14_Yellow.prefab
+  artifactKey: Guid(d5ce81421cfa9604fb2b954d495656ce) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Free Wood Door Pack/Prefab/Wood/Door_14/Door_14_Yellow.prefab using Guid(d5ce81421cfa9604fb2b954d495656ce) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'edb0c02784ba716c70bb06200f37ad19') in 0.0320173 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 25
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Free Wood Door Pack/Materials/Door_4_Materials/Door_4_Venge.mat
+  artifactKey: Guid(55dd02e683667e64aa428c1bd2cf55c6) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Free Wood Door Pack/Materials/Door_4_Materials/Door_4_Venge.mat using Guid(55dd02e683667e64aa428c1bd2cf55c6) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'eb61037a6a8a75210f155f2d4404e826') in 0.0287902 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Free Wood Door Pack/Texture/Door_1/Door_1_AO.tga
+  artifactKey: Guid(a4c635dd499ad4b4db7ecd8c3e69b21b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Free Wood Door Pack/Texture/Door_1/Door_1_AO.tga using Guid(a4c635dd499ad4b4db7ecd8c3e69b21b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2937c0511faec54d49970b1bbe598656') in 0.0811668 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Free Wood Door Pack/Prefab/Wood/Door_3/Door_3_White.prefab
+  artifactKey: Guid(e3fe7ada7ca25d840ae444bd16f0f4d9) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Free Wood Door Pack/Prefab/Wood/Door_3/Door_3_White.prefab using Guid(e3fe7ada7ca25d840ae444bd16f0f4d9) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8aa36ddc4156db7b9f781d9bac9ef546') in 0.0330541 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 25
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Free Wood Door Pack/Materials/Door_9_Materials/Door_9_Coffe.mat
+  artifactKey: Guid(161d244c98aeed741bcef00df2053ef2) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Free Wood Door Pack/Materials/Door_9_Materials/Door_9_Coffe.mat using Guid(161d244c98aeed741bcef00df2053ef2) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7b9103d1ca2ff3dcc25fbbf4e8fcb281') in 0.034638 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Free Wood Door Pack/Prefab/Wood/Door_3/Door_3_Milk.prefab
+  artifactKey: Guid(568da07845320fd45b7c66635bf12799) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/Free Wood Door Pack/Prefab/Wood/Door_3/Door_3_Milk.prefab using Guid(568da07845320fd45b7c66635bf12799) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: '1473abafee8b992ae0b4af1d0a7a6838') in 0.031584 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 27
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Free Wood Door Pack/Materials/Door_10_Materials/Door_10_Black.mat
+  artifactKey: Guid(584ed2861c09f1d40a68a1ff5e122022) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Free Wood Door Pack/Materials/Door_10_Materials/Door_10_Black.mat using Guid(584ed2861c09f1d40a68a1ff5e122022) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '363c337f015d527c3e858a8673bf71ff') in 0.0295571 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Free Wood Door Pack/Texture/Door_7/Door_7_Spec.tga
+  artifactKey: Guid(1e830075fe972e64795ca32a819d9569) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Free Wood Door Pack/Texture/Door_7/Door_7_Spec.tga using Guid(1e830075fe972e64795ca32a819d9569) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '607270b98eb9353ff18fbeed77649260') in 0.0355896 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Free Wood Door Pack/Texture/Door_7/Door_7_Normal.tga
+  artifactKey: Guid(74209712eeeb60144a6c916363b6f146) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Free Wood Door Pack/Texture/Door_7/Door_7_Normal.tga using Guid(74209712eeeb60144a6c916363b6f146) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5bc9a115306ff5ad73d0c8fae58f1791') in 0.028916 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Free Wood Door Pack/Prefab/Wood/Door_4/Door_4_Venge.prefab
+  artifactKey: Guid(d5b34822e12447b41a9a59f29e8818c6) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/Free Wood Door Pack/Prefab/Wood/Door_4/Door_4_Venge.prefab using Guid(d5b34822e12447b41a9a59f29e8818c6) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: 'a48cf07d191b2360527b89446ffcc520') in 0.036901 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 27
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Free Wood Door Pack/Prefab/Wood/Door_8/Door_8_White.prefab
+  artifactKey: Guid(74a33d38e1f7b1a47a9cb292b84a3fb4) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/Free Wood Door Pack/Prefab/Wood/Door_8/Door_8_White.prefab using Guid(74a33d38e1f7b1a47a9cb292b84a3fb4) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: 'd55653d1f43772b90524ceaad16c7838') in 0.032075 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 27
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Free Wood Door Pack/Prefab/Wood/Door_2/Door_2_Yellow.prefab
+  artifactKey: Guid(e20483c6a68b6614f9423dfde6d7954f) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/Free Wood Door Pack/Prefab/Wood/Door_2/Door_2_Yellow.prefab using Guid(e20483c6a68b6614f9423dfde6d7954f) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: 'e9642e8958c850dcb64e2ba1a0ef1a01') in 0.0295812 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 27
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Free Wood Door Pack/Prefab/Wood/Door_2/Door_2_Coffe.prefab
+  artifactKey: Guid(0456882ebacfb074f93134e3ae2b40ad) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/Free Wood Door Pack/Prefab/Wood/Door_2/Door_2_Coffe.prefab using Guid(0456882ebacfb074f93134e3ae2b40ad) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: 'cc709ad82e1752d126ac8b487f337a4e') in 0.0338952 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 27
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Free Wood Door Pack/Prefab/Wood/Door_3/Door_3_Venge.prefab
+  artifactKey: Guid(4995f58b750236d448fc8fd2a5eb2782) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/Free Wood Door Pack/Prefab/Wood/Door_3/Door_3_Venge.prefab using Guid(4995f58b750236d448fc8fd2a5eb2782) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: '8411641be2bc6625bd0f9f1d6093a0a1') in 0.0290651 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 27
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Free Wood Door Pack/Prefab/Wood/Door_11/Door_11_Brown.prefab
+  artifactKey: Guid(38b5d739ceb5c2348825a8b615719754) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/Free Wood Door Pack/Prefab/Wood/Door_11/Door_11_Brown.prefab using Guid(38b5d739ceb5c2348825a8b615719754) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: 'bf3344ade60c88797774f7e03f2bc1a8') in 0.0333124 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 27
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Free Wood Door Pack/Texture/Door_5
+  artifactKey: Guid(9e0fb91f6dad754489a842c9ea333412) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Free Wood Door Pack/Texture/Door_5 using Guid(9e0fb91f6dad754489a842c9ea333412) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0a493982abb9b907d26ff24d197900ca') in 0.0195721 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Free Wood Door Pack/Prefab/Wood/Door_3/Door_3_Black.prefab
+  artifactKey: Guid(671eafa5fe39f0d43bac8b36bfc68d17) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Free Wood Door Pack/Prefab/Wood/Door_3/Door_3_Black.prefab using Guid(671eafa5fe39f0d43bac8b36bfc68d17) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7842e8e486e67bb68a45543840243e86') in 0.0338666 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 25
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Free Wood Door Pack/Prefab/Wood/Door_5/Door_5_White.prefab
+  artifactKey: Guid(ffd2ccccea67e9c4096d3fc6f17e5434) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/Free Wood Door Pack/Prefab/Wood/Door_5/Door_5_White.prefab using Guid(ffd2ccccea67e9c4096d3fc6f17e5434) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: '5e6f908d1540653ada94bb72758db391') in 0.0256451 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 27
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Free Wood Door Pack/Prefab/Wood/Door_5/Door_5_Coffe.prefab
+  artifactKey: Guid(3cb7a9fd1c4a69440b85c4094b56382b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Free Wood Door Pack/Prefab/Wood/Door_5/Door_5_Coffe.prefab using Guid(3cb7a9fd1c4a69440b85c4094b56382b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '683da7a20ca4b6f7260fb250dd53a6c7') in 0.0261213 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 25
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Free Wood Door Pack/Texture/Door_8/Door_8_AO.tga
+  artifactKey: Guid(d52af9e8c6075c34e8305e3691c2ee95) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Free Wood Door Pack/Texture/Door_8/Door_8_AO.tga using Guid(d52af9e8c6075c34e8305e3691c2ee95) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7978ddb1b776dabeb56717c572dfad78') in 0.0253683 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.328637 seconds.
+  path: Assets/Free Wood Door Pack/Prefab/Wood/Door_9/Door_9_Black.prefab
+  artifactKey: Guid(6b92fa16718366348b0d4d1c9ede1bf8) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Free Wood Door Pack/Prefab/Wood/Door_9/Door_9_Black.prefab using Guid(6b92fa16718366348b0d4d1c9ede1bf8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9a4500afa63f31fcb45ce19d10f45acb') in 0.0202593 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 23
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Free Wood Door Pack/Materials/Door_4_Materials/Door_4_White.mat
+  artifactKey: Guid(48d85f345546ce74b860ed0b9ce69124) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Free Wood Door Pack/Materials/Door_4_Materials/Door_4_White.mat using Guid(48d85f345546ce74b860ed0b9ce69124) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '85802c30049bf90a509f1739a79d226e') in 0.0457916 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Free Wood Door Pack/Mesh/Knob_1.FBX
+  artifactKey: Guid(61da1afafe7ba6d4d87fd529947cb422) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Free Wood Door Pack/Mesh/Knob_1.FBX using Guid(61da1afafe7ba6d4d87fd529947cb422) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '29deefde894b19ac05920e5d66d5fc3c') in 0.0640052 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Free Wood Door Pack/Prefab/Wood/Door_8/Door_8_White.prefab
+  artifactKey: Guid(74a33d38e1f7b1a47a9cb292b84a3fb4) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Free Wood Door Pack/Prefab/Wood/Door_8/Door_8_White.prefab using Guid(74a33d38e1f7b1a47a9cb292b84a3fb4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2ec2b5f53a6ea017e09cdc535e48ad4f') in 0.0293534 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 25
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Free Wood Door Pack/Texture/Door_12/Door_12_Spec.tga
+  artifactKey: Guid(11bd45944f2e4314aae8043abd43e09c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Free Wood Door Pack/Texture/Door_12/Door_12_Spec.tga using Guid(11bd45944f2e4314aae8043abd43e09c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'da7b2a5417825e47265e87ced191e8ae') in 0.0334268 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Free Wood Door Pack/Prefab/Wood/Door_12/Door_12_Venge.prefab
+  artifactKey: Guid(36fd62b71d5f9b14588b21fd95201747) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Free Wood Door Pack/Prefab/Wood/Door_12/Door_12_Venge.prefab using Guid(36fd62b71d5f9b14588b21fd95201747) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '501146375f99df87e332bcc5dc476b06') in 0.0326967 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 25
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Free Wood Door Pack/Prefab/Wood/Door_1/Door_1_White.prefab
+  artifactKey: Guid(35ca5007b9b280f4f93ae97058146c54) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Free Wood Door Pack/Prefab/Wood/Door_1/Door_1_White.prefab using Guid(35ca5007b9b280f4f93ae97058146c54) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd44ae85e0a891396ea81dc8a91ccf838') in 0.0329001 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 25
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Free Wood Door Pack/Prefab/Wood/Door_12/Door_12_White.prefab
+  artifactKey: Guid(6c4e3e16c97e2ac458aae0576657517a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Free Wood Door Pack/Prefab/Wood/Door_12/Door_12_White.prefab using Guid(6c4e3e16c97e2ac458aae0576657517a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '34c9d0f331828033126f7f815b22a3c7') in 0.0299756 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 25
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Free Wood Door Pack/Prefab/Wood/Door_4/Door_4_White.prefab
+  artifactKey: Guid(4ef963e0884b85747ae4641402f3ab74) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Free Wood Door Pack/Prefab/Wood/Door_4/Door_4_White.prefab using Guid(4ef963e0884b85747ae4641402f3ab74) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '30c9d215a517928c98288096e0d9db2d') in 0.0311984 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 25
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Free Wood Door Pack/Prefab/Wood/Door_2/Door_2_Venge.prefab
+  artifactKey: Guid(ba907d7a8d489d249b23cdd63f1cd0c6) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Free Wood Door Pack/Prefab/Wood/Door_2/Door_2_Venge.prefab using Guid(ba907d7a8d489d249b23cdd63f1cd0c6) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6d6c97e79d9cac6ee331ce80790124a3') in 0.030877 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 25
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Free Wood Door Pack/Materials/Door_13_Materials/Door_13_Brown.mat
+  artifactKey: Guid(dcde6acac54b4f74c9981cb271bf00d9) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Free Wood Door Pack/Materials/Door_13_Materials/Door_13_Brown.mat using Guid(dcde6acac54b4f74c9981cb271bf00d9) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e5becb55667be3c5f2db044606cfe09d') in 0.0310725 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Free Wood Door Pack/Prefab/Wood/Door_11/Door_11_White.prefab
+  artifactKey: Guid(4f24f31aeb1fb6748b7c42d3b9f46c59) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Free Wood Door Pack/Prefab/Wood/Door_11/Door_11_White.prefab using Guid(4f24f31aeb1fb6748b7c42d3b9f46c59) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '551bd2457069550db659c0bc9fb3eaf4') in 0.0309366 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 25
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Free Wood Door Pack/Texture/Door_1/Door_1_Normal.tga
+  artifactKey: Guid(26be57ecef44e1541b727dd623149c1c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Free Wood Door Pack/Texture/Door_1/Door_1_Normal.tga using Guid(26be57ecef44e1541b727dd623149c1c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7f9f7133780eaefc08d0e2847275e4bc') in 0.0410473 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Free Wood Door Pack/Prefab/Wood/Door_13/Door_13_Coffe.prefab
+  artifactKey: Guid(1bcac1a2dd91ec5438cb06c0d5b5d1ea) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Free Wood Door Pack/Prefab/Wood/Door_13/Door_13_Coffe.prefab using Guid(1bcac1a2dd91ec5438cb06c0d5b5d1ea) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1b5d2f326549670cdfa82fbd88d39f80') in 0.0330723 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 25
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Free Wood Door Pack/Texture/Door_10/Door_10_Normal.tga
+  artifactKey: Guid(4fceca4eced52cb4e9ea7aa8d8324ea1) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Free Wood Door Pack/Texture/Door_10/Door_10_Normal.tga using Guid(4fceca4eced52cb4e9ea7aa8d8324ea1) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '986764cf8d2020a007bf26d89ed31a71') in 0.0321604 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Free Wood Door Pack/Materials/Door_Knob_Material/Bronze.mat
+  artifactKey: Guid(48bee5de8ccdfc84980f9ffc4dbe44e5) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Free Wood Door Pack/Materials/Door_Knob_Material/Bronze.mat using Guid(48bee5de8ccdfc84980f9ffc4dbe44e5) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '28d8ff1cc8b882e44dda0bd57e1a7364') in 0.0251912 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Free Wood Door Pack/Prefab/Wood/Door_2/Door_2_Yellow.prefab
+  artifactKey: Guid(e20483c6a68b6614f9423dfde6d7954f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Free Wood Door Pack/Prefab/Wood/Door_2/Door_2_Yellow.prefab using Guid(e20483c6a68b6614f9423dfde6d7954f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '54c3d8e3afa0445844fe13f7d6ec5184') in 0.0298743 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 25
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/Free Wood Door Pack/Materials/Door_15_Materials/Door_15_Milk.mat
+  artifactKey: Guid(20830380eb9072641a793907544a0f44) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Free Wood Door Pack/Materials/Door_15_Materials/Door_15_Milk.mat using Guid(20830380eb9072641a793907544a0f44) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '749cc1ed58106aead86c86b865cddca4') in 0.0341032 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Free Wood Door Pack/Prefab/Wood/Door_7/Door_7_Venge.prefab
+  artifactKey: Guid(1570559eee7006f428dd974779e824ce) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Free Wood Door Pack/Prefab/Wood/Door_7/Door_7_Venge.prefab using Guid(1570559eee7006f428dd974779e824ce) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4fa4b39376e2c54dc2f141835ca42439') in 0.0271556 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 25
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Free Wood Door Pack/Prefab/Wood/Door_5/Door_5_White.prefab
+  artifactKey: Guid(ffd2ccccea67e9c4096d3fc6f17e5434) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Free Wood Door Pack/Prefab/Wood/Door_5/Door_5_White.prefab using Guid(ffd2ccccea67e9c4096d3fc6f17e5434) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6073d3f884d5d2abd4c46e42cb524bc6') in 0.0240913 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 25
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Free Wood Door Pack
+  artifactKey: Guid(60424ffe7d68fdc4a94a42ee94013f00) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Free Wood Door Pack using Guid(60424ffe7d68fdc4a94a42ee94013f00) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5ba31781e32556d30d912cd448fa2219') in 0.0180015 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Free Wood Door Pack/Materials/Door_12_Materials/Door_12_Brown.mat
+  artifactKey: Guid(5a7d3c45dcf5eec43aaa977ff72acb90) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Free Wood Door Pack/Materials/Door_12_Materials/Door_12_Brown.mat using Guid(5a7d3c45dcf5eec43aaa977ff72acb90) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '92605360e4a0a28275c8b005b373945f') in 0.026895 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Free Wood Door Pack/Materials/Door_1_Materials/Door_1_Yellow.mat
+  artifactKey: Guid(3b5dcb2c6669e4d4d93e6dd938ca6132) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Free Wood Door Pack/Materials/Door_1_Materials/Door_1_Yellow.mat using Guid(3b5dcb2c6669e4d4d93e6dd938ca6132) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1197bda91f7b2094e8e7a14750fc5301') in 0.0352007 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Free Wood Door Pack/Materials/Door_5_Materials
+  artifactKey: Guid(3ee95c0cb65706c44b3d7d30928ab02f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Free Wood Door Pack/Materials/Door_5_Materials using Guid(3ee95c0cb65706c44b3d7d30928ab02f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5486630333452a3216d311d35c5a2535') in 0.0189677 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Free Wood Door Pack/Texture/Door_2/Door_2_Albedo.tga
+  artifactKey: Guid(0d73464f8730f0b44a5ce4d42014e451) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Free Wood Door Pack/Texture/Door_2/Door_2_Albedo.tga using Guid(0d73464f8730f0b44a5ce4d42014e451) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1e1148e7de3edd9358cc5c9587cfcd52') in 0.0314638 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Free Wood Door Pack/Audio/Door_Close.wav
+  artifactKey: Guid(bc37ad25465405a428a26ff0facd9a7b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Free Wood Door Pack/Audio/Door_Close.wav using Guid(bc37ad25465405a428a26ff0facd9a7b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '805e86a06f948130f1d568f753caa3e8') in 0.053716 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Free Wood Door Pack/Texture/Door_14/Door_14_Normal.tga
+  artifactKey: Guid(952155b934297804bbcee57e65e382df) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Free Wood Door Pack/Texture/Door_14/Door_14_Normal.tga using Guid(952155b934297804bbcee57e65e382df) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '609f91f907e21d1935c781073deb24a4') in 0.0360561 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Free Wood Door Pack/Prefab/Wood/Door_4/Door_4_Coffe.prefab
+  artifactKey: Guid(d4718fd25ff9fc64a820d539bfe490fd) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Free Wood Door Pack/Prefab/Wood/Door_4/Door_4_Coffe.prefab using Guid(d4718fd25ff9fc64a820d539bfe490fd) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a97cbf2c018f65bf7bac49c7966ad6c1') in 0.0251655 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 25
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Free Wood Door Pack/Texture/Door_9/Door_9_AO.tga
+  artifactKey: Guid(eb5930d910d92f34288dcd074ceb7512) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Free Wood Door Pack/Texture/Door_9/Door_9_AO.tga using Guid(eb5930d910d92f34288dcd074ceb7512) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9345c105705fa11e1b0ea035281d0efd') in 0.0239455 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Free Wood Door Pack/Texture/Door_9/Door_9_Normal.tga
+  artifactKey: Guid(1ccb48405ed765644b4d0c5c398b570e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Free Wood Door Pack/Texture/Door_9/Door_9_Normal.tga using Guid(1ccb48405ed765644b4d0c5c398b570e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8c4ed98034868feadba2626035b46c51') in 0.031016 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Free Wood Door Pack/Materials/Door_7_Materials/Door_7_Milk.mat
+  artifactKey: Guid(2f54f2328d1829649b3193315784b948) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Free Wood Door Pack/Materials/Door_7_Materials/Door_7_Milk.mat using Guid(2f54f2328d1829649b3193315784b948) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '680f136216bda075921ecf55848164a1') in 0.0430269 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Free Wood Door Pack/Mesh/Wood_Door.FBX
+  artifactKey: Guid(670e9ab602834f049b0dac77d6a298d8) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Free Wood Door Pack/Mesh/Wood_Door.FBX using Guid(670e9ab602834f049b0dac77d6a298d8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'aee3303e116cd4b9ebb3bcb293434c34') in 0.0303759 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Free Wood Door Pack/Prefab/Wood/Door_6/Door_6_Black.prefab
+  artifactKey: Guid(760838252ccbd404f8759c2dcb58cd3e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Free Wood Door Pack/Prefab/Wood/Door_6/Door_6_Black.prefab using Guid(760838252ccbd404f8759c2dcb58cd3e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0902bf850c9567fd3e957d4a319901f7') in 0.0345546 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 25
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Free Wood Door Pack/Materials/Door_11_Materials/Door_11_Brown.mat
+  artifactKey: Guid(5a16364ffa9449548ada0b340dc78677) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Free Wood Door Pack/Materials/Door_11_Materials/Door_11_Brown.mat using Guid(5a16364ffa9449548ada0b340dc78677) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd75513ccda4fcbf5619deb802b53e9c5') in 0.0335532 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Free Wood Door Pack/Materials/Door_13_Materials/Door_13_White.mat
+  artifactKey: Guid(63451a00d9ef5354ebf5033d59ed257c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Free Wood Door Pack/Materials/Door_13_Materials/Door_13_White.mat using Guid(63451a00d9ef5354ebf5033d59ed257c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3df9d8193a0c7acce2033640282afde1') in 0.0310245 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Free Wood Door Pack/Materials/Door_Knob_Material/Silver.mat
+  artifactKey: Guid(74d049c34000329458b9b53fadd16377) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Free Wood Door Pack/Materials/Door_Knob_Material/Silver.mat using Guid(74d049c34000329458b9b53fadd16377) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5ad812d3a29f81d197eef3f71d5c80c4') in 0.0264625 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Free Wood Door Pack/Prefab/Wood/Door_10/Door_10_Coffe.prefab
+  artifactKey: Guid(d8ad690ee6d9ec64f97446124ed8e016) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Free Wood Door Pack/Prefab/Wood/Door_10/Door_10_Coffe.prefab using Guid(d8ad690ee6d9ec64f97446124ed8e016) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd0f87ad7e1be0f445475a19121c31f66') in 0.0296745 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 25
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Free Wood Door Pack/Materials/Door_9_Materials/Door_9_Black.mat
+  artifactKey: Guid(bdc3098820f1f8a4b9106266d7bd5ed4) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Free Wood Door Pack/Materials/Door_9_Materials/Door_9_Black.mat using Guid(bdc3098820f1f8a4b9106266d7bd5ed4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '27ab90ba5a6c802b570e17d67c997c7c') in 0.0318179 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Free Wood Door Pack/Audio/Door_Open.wav
+  artifactKey: Guid(44b63b0db16ce624b97e45ebde0a0971) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Free Wood Door Pack/Audio/Door_Open.wav using Guid(44b63b0db16ce624b97e45ebde0a0971) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7caacbb4315d5ff8692eff175ab4619f') in 0.060596 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Free Wood Door Pack/Materials/Door_12_Materials/Door_12_Milk.mat
+  artifactKey: Guid(f1b3d0365be2cce449403f867f1b07e6) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Free Wood Door Pack/Materials/Door_12_Materials/Door_12_Milk.mat using Guid(f1b3d0365be2cce449403f867f1b07e6) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ddc2c58e6ded615972c0209b419e4c75') in 0.0343048 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Free Wood Door Pack/Materials/Door_7_Materials/Door_7_Yellow.mat
+  artifactKey: Guid(7958caaaff0c4eb499f600cae6c8459b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Free Wood Door Pack/Materials/Door_7_Materials/Door_7_Yellow.mat using Guid(7958caaaff0c4eb499f600cae6c8459b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ba0a99891f622268bd9e71e37a5db87f') in 0.0337232 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Free Wood Door Pack/Prefab/Wood/Door_15/Door_15_Black.prefab
+  artifactKey: Guid(09e934849f7028c45bb17c3078f98c76) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Free Wood Door Pack/Prefab/Wood/Door_15/Door_15_Black.prefab using Guid(09e934849f7028c45bb17c3078f98c76) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2282f04b6098b11ceb430b1b892fbdb7') in 0.0474612 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 25
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Free Wood Door Pack/Materials/Door_15_Materials/Door_15_White.mat
+  artifactKey: Guid(7cf93901e67434242badd74c141b6f39) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Free Wood Door Pack/Materials/Door_15_Materials/Door_15_White.mat using Guid(7cf93901e67434242badd74c141b6f39) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9864df6b4f27c50d4447b84baedb73f3') in 0.0322155 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Free Wood Door Pack/Prefab/Wood/Door_8/Door_8_Venge.prefab
+  artifactKey: Guid(0555de4e7eda6e84c8a5ff79063ea065) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Free Wood Door Pack/Prefab/Wood/Door_8/Door_8_Venge.prefab using Guid(0555de4e7eda6e84c8a5ff79063ea065) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c885e613e5b69aa73e1978704c189eeb') in 0.0337366 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 25
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Free Wood Door Pack/Prefab/Wood/Door_4/Door_4_Yellow.prefab
+  artifactKey: Guid(1dfc1687a4c9f97439b6b6387eac8393) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Free Wood Door Pack/Prefab/Wood/Door_4/Door_4_Yellow.prefab using Guid(1dfc1687a4c9f97439b6b6387eac8393) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ab61bb496445576a94267937d67ce8be') in 0.0355739 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 25
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Free Wood Door Pack/Prefab/Wood/Door_14/Door_14_Venge.prefab
+  artifactKey: Guid(2979c9562e68d5347bf6a7b4b8d6e196) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Free Wood Door Pack/Prefab/Wood/Door_14/Door_14_Venge.prefab using Guid(2979c9562e68d5347bf6a7b4b8d6e196) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'fe6069e63464e78bf0409a991aebbbd6') in 0.047009 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 25
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Free Wood Door Pack/Script/FPSController.cs
+  artifactKey: Guid(e3eeb321ab445744eae85b36acb5568d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Free Wood Door Pack/Script/FPSController.cs using Guid(e3eeb321ab445744eae85b36acb5568d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5a74e758062780f3707a311d0d07d5ad') in 0.0212826 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Free Wood Door Pack/Prefab/Wood/Door_8/Door_8_Black.prefab
+  artifactKey: Guid(093fb121e2538504ba53a037cd38e16b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Free Wood Door Pack/Prefab/Wood/Door_8/Door_8_Black.prefab using Guid(093fb121e2538504ba53a037cd38e16b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd9b3492d098f3bebdc72f22b3ea35bda') in 0.0371373 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 25
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Free Wood Door Pack/Texture/Door_11/Door_11_Albedo.tga
+  artifactKey: Guid(74b5905cfa9d4e34aa782bbde93dc37c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Free Wood Door Pack/Texture/Door_11/Door_11_Albedo.tga using Guid(74b5905cfa9d4e34aa782bbde93dc37c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1be3026fe638e764f8f6c4ab15e78de0') in 0.0335547 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Free Wood Door Pack/Materials/Door_9_Materials/Door_9_Venge.mat
+  artifactKey: Guid(cd4348a4eb954864fbd6fea39dc54581) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Free Wood Door Pack/Materials/Door_9_Materials/Door_9_Venge.mat using Guid(cd4348a4eb954864fbd6fea39dc54581) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '233b042a1ed34eebfcfc05932674f090') in 0.0415967 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Free Wood Door Pack/Materials/Door_15_Materials/Door_15_Yellow.mat
+  artifactKey: Guid(ced105c692c1b724f80217f357bee2a6) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Free Wood Door Pack/Materials/Door_15_Materials/Door_15_Yellow.mat using Guid(ced105c692c1b724f80217f357bee2a6) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '02de915022b167d31492dbc82cec8832') in 0.0540715 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Free Wood Door Pack/Texture/Door_10/Door_10_Albedo.tga
+  artifactKey: Guid(780ab67d8d73d9a4999cd87e23ddf0fb) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Free Wood Door Pack/Texture/Door_10/Door_10_Albedo.tga using Guid(780ab67d8d73d9a4999cd87e23ddf0fb) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2929c1a633c64d2e7df7278bee5b59c0') in 0.0339385 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Free Wood Door Pack/Materials/Door_10_Materials/Door_10_White.mat
+  artifactKey: Guid(1bd280b707d686b42ace8463f2f1f5c0) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Free Wood Door Pack/Materials/Door_10_Materials/Door_10_White.mat using Guid(1bd280b707d686b42ace8463f2f1f5c0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e68dc472b310b7c48c051f49322b325f') in 0.0429285 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Free Wood Door Pack/Materials/Door_9_Materials/Door_9_Yellow.mat
+  artifactKey: Guid(2eb48a350e538a94499211867924b9e5) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Free Wood Door Pack/Materials/Door_9_Materials/Door_9_Yellow.mat using Guid(2eb48a350e538a94499211867924b9e5) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e2385a78b2d7f5db98368002a9296d76') in 0.0404698 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Free Wood Door Pack/Prefab/Wood/Door_7/Door_7_Yellow.prefab
+  artifactKey: Guid(9648c4be13ca59a4fb45c4f8b4d3900e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Free Wood Door Pack/Prefab/Wood/Door_7/Door_7_Yellow.prefab using Guid(9648c4be13ca59a4fb45c4f8b4d3900e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f1b7e27a651eaad998e094b77857af42') in 0.0292115 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 25
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Free Wood Door Pack/Texture/Door_5/Door_5_Albedo.tga
+  artifactKey: Guid(4e2a4880833a1e84eadaeb3fa562913a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Free Wood Door Pack/Texture/Door_5/Door_5_Albedo.tga using Guid(4e2a4880833a1e84eadaeb3fa562913a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'fe17e919fa207f5bb6ce03f34e635ffe') in 0.0312294 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Free Wood Door Pack/Prefab/Wood/Door_9/Door_9_White.prefab
+  artifactKey: Guid(36defb2fe38bb524fa3833998b45dccc) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Free Wood Door Pack/Prefab/Wood/Door_9/Door_9_White.prefab using Guid(36defb2fe38bb524fa3833998b45dccc) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '352f6ec2a018c2d356bdfe6705e76ce3') in 0.0240019 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 23
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Free Wood Door Pack/Texture/Door_2/Door_2_AO.tga
+  artifactKey: Guid(6bab80b786fa0c9419205bddecaedecd) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Free Wood Door Pack/Texture/Door_2/Door_2_AO.tga using Guid(6bab80b786fa0c9419205bddecaedecd) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ec18cdd6c2ba172a6363f81df7830ddb') in 0.0312822 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Free Wood Door Pack/Mesh
+  artifactKey: Guid(d03b2d1a48eddaa47b6b49bd9c2b8d98) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Free Wood Door Pack/Mesh using Guid(d03b2d1a48eddaa47b6b49bd9c2b8d98) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ae58013ea58a60be17b4129ab87797ac') in 0.0203882 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Free Wood Door Pack/Prefab/Wood/Door_11/Door_11_Black.prefab
+  artifactKey: Guid(6af27495a8a3451459c0760511d227e5) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Free Wood Door Pack/Prefab/Wood/Door_11/Door_11_Black.prefab using Guid(6af27495a8a3451459c0760511d227e5) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9d17753a368e8863ec1331e43a8a49d1') in 0.0358358 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 25
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Free Wood Door Pack/Materials/Door_11_Materials/Door_11_Yellow.mat
+  artifactKey: Guid(426e345bba8ffe44fa7a0e67a524baf7) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Free Wood Door Pack/Materials/Door_11_Materials/Door_11_Yellow.mat using Guid(426e345bba8ffe44fa7a0e67a524baf7) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ee6df70e94ca8e15d81e06ecff85df18') in 0.0337843 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Free Wood Door Pack/Prefab/Wood/Door_3/Door_3_Coffe.prefab
+  artifactKey: Guid(06daa60d904c74549a060e3bd6bc9c54) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Free Wood Door Pack/Prefab/Wood/Door_3/Door_3_Coffe.prefab using Guid(06daa60d904c74549a060e3bd6bc9c54) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '86fdde1fd30813cee9cd56a412dddc63') in 0.0388235 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 25
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Free Wood Door Pack/Prefab/Wood/Door_4/Door_4_Brown.prefab
+  artifactKey: Guid(50f132ebf2f56c94fb5dda3d12b89795) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Free Wood Door Pack/Prefab/Wood/Door_4/Door_4_Brown.prefab using Guid(50f132ebf2f56c94fb5dda3d12b89795) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '007bdb5ab150e370d7bd75ff7796c87e') in 0.0315484 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 25
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Proxy Games/Stylized Nature Kit Lite/Scenes/Showcase Demo Scene
+  artifactKey: Guid(91273674388b76041a2760eb0ee887a8) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Proxy Games/Stylized Nature Kit Lite/Scenes/Showcase Demo Scene using Guid(91273674388b76041a2760eb0ee887a8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c135534e3529b417a5fcfbe9630c2e19') in 0.0224318 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Proxy Games/Stylized Nature Kit Lite/Prefabs/Rocks/Standard Rocks/Standard Rock 3.prefab
+  artifactKey: Guid(05a887701af30614f819e1db804d10a1) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Proxy Games/Stylized Nature Kit Lite/Prefabs/Rocks/Standard Rocks/Standard Rock 3.prefab using Guid(05a887701af30614f819e1db804d10a1) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '99106f88055c3b702245e41b5ced3187') in 0.0337222 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 26
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Free Wood Door Pack/Prefab/Wood/Door_14/Door_14_Black.prefab
+  artifactKey: Guid(6cfb2f34469a9214baa637a41fe00913) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Free Wood Door Pack/Prefab/Wood/Door_14/Door_14_Black.prefab using Guid(6cfb2f34469a9214baa637a41fe00913) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e190065c244dc8be29b74aa8094ba016') in 0.0286525 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 25
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Free Wood Door Pack/Prefab
+  artifactKey: Guid(90eaf436287913a409779cddc247b5b6) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Free Wood Door Pack/Prefab using Guid(90eaf436287913a409779cddc247b5b6) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'bef86f627c531a2e7a8e6ad61fdf6f83') in 0.0243789 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Free Wood Door Pack/Materials/Door_10_Materials/Door_10_Coffe.mat
+  artifactKey: Guid(bcd40f210bb44664198a9792b4094be6) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Free Wood Door Pack/Materials/Door_10_Materials/Door_10_Coffe.mat using Guid(bcd40f210bb44664198a9792b4094be6) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2336e77285b9267dcbc5d7aa24980a83') in 0.0355202 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Free Wood Door Pack/Prefab/Wood/Door_8/Door_8_Brown.prefab
+  artifactKey: Guid(d81648d0c0816084b87e64db25e021ce) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Free Wood Door Pack/Prefab/Wood/Door_8/Door_8_Brown.prefab using Guid(d81648d0c0816084b87e64db25e021ce) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9f444270e0bab7bfaf0b02be5642db93') in 0.0294295 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 25
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Proxy Games/Stylized Nature Kit Lite/Misc
+  artifactKey: Guid(3826c1bd9fc831d418e217b90aa6b69e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Proxy Games/Stylized Nature Kit Lite/Misc using Guid(3826c1bd9fc831d418e217b90aa6b69e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '61b1acb5f3837ab954e46aa2e053dba0') in 0.0194093 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Proxy Games/Stylized Nature Kit Lite/Meshes/Rocks/Tiny Rocks
+  artifactKey: Guid(2761fac480b974e4c9b2a29c17642e45) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Proxy Games/Stylized Nature Kit Lite/Meshes/Rocks/Tiny Rocks using Guid(2761fac480b974e4c9b2a29c17642e45) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3f2b4f93a64afd33c3081de489082cb0') in 0.0210287 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Proxy Games/Stylized Nature Kit Lite/Prefabs/Rocks/Tiny Rocks
+  artifactKey: Guid(6c79a1fdf58c8954d86341517cc540eb) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Proxy Games/Stylized Nature Kit Lite/Prefabs/Rocks/Tiny Rocks using Guid(6c79a1fdf58c8954d86341517cc540eb) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '83a13545ba83d9dc5fea1503069b111e') in 0.0159379 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000097 seconds.
+  path: Assets/Proxy Games/Stylized Nature Kit Lite/Meshes/Water
+  artifactKey: Guid(2be2d0ea71005014ca48fc1b00a59905) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Proxy Games/Stylized Nature Kit Lite/Meshes/Water using Guid(2be2d0ea71005014ca48fc1b00a59905) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f6596265c460c235c70421d131fbbedf') in 0.0232626 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Proxy Games/Stylized Nature Kit Lite/Materials/Grass.mat
+  artifactKey: Guid(9f69fd57086ff5046914a8b32350a1cb) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Proxy Games/Stylized Nature Kit Lite/Materials/Grass.mat using Guid(9f69fd57086ff5046914a8b32350a1cb) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8de6d0290cde99d27b6001d24e2727a5') in 0.024075 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Free Wood Door Pack/Prefab/Wood/Door_13/Door_13_White.prefab
+  artifactKey: Guid(cb7fc40e140acda4b86d949e1daa43b3) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Free Wood Door Pack/Prefab/Wood/Door_13/Door_13_White.prefab using Guid(cb7fc40e140acda4b86d949e1daa43b3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'eb5d0d8dc8472244697c439fb8a34d2d') in 0.0371982 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 25
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Free Wood Door Pack/Prefab/Wood/Door_2/Door_2_Black.prefab
+  artifactKey: Guid(26790669cef646944a4d6561a0374e14) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Free Wood Door Pack/Prefab/Wood/Door_2/Door_2_Black.prefab using Guid(26790669cef646944a4d6561a0374e14) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '07bcdf4939c06a0c579b92bd5ef5c1bf') in 0.0343015 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 25
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Proxy Games/Stylized Nature Kit Lite/Textures
+  artifactKey: Guid(d8a04c2047ec093488d95f2498c8c592) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Proxy Games/Stylized Nature Kit Lite/Textures using Guid(d8a04c2047ec093488d95f2498c8c592) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f59b2474a716bf5fa71038d2eef783b7') in 0.0230968 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Proxy Games/Stylized Nature Kit Lite/Meshes/Rocks/Rock Cliffs/Rock Cliff 5.fbx
+  artifactKey: Guid(6d8861f3dd3ad3a4fb0162a75cb991b7) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Proxy Games/Stylized Nature Kit Lite/Meshes/Rocks/Rock Cliffs/Rock Cliff 5.fbx using Guid(6d8861f3dd3ad3a4fb0162a75cb991b7) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '64a7169a97126b6b5dd93fb6cfaa41d9') in 0.0472204 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 25
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Free Wood Door Pack/Texture/Door_4/Door_4_Spec.tga
+  artifactKey: Guid(63e17ffbb4808c24c80b589730401458) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Free Wood Door Pack/Texture/Door_4/Door_4_Spec.tga using Guid(63e17ffbb4808c24c80b589730401458) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '656d195107ea6023bc6af5d759f4bfb6') in 0.0377711 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Proxy Games/Stylized Nature Kit Lite/Meshes/Rocks/Standard Rocks/Standard Rock 3.fbx
+  artifactKey: Guid(cdfa04c51cadc7246b34041135934d73) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Proxy Games/Stylized Nature Kit Lite/Meshes/Rocks/Standard Rocks/Standard Rock 3.fbx using Guid(cdfa04c51cadc7246b34041135934d73) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b132164711bff9c8a7a1e18057f99c5f') in 0.0414369 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 25
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Proxy Games/Stylized Nature Kit Lite/Prefabs/Rocks/Standard Rocks/Standard Rock 2.prefab
+  artifactKey: Guid(e67d3e2fdb18d364f943d685c09cb266) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Proxy Games/Stylized Nature Kit Lite/Prefabs/Rocks/Standard Rocks/Standard Rock 2.prefab using Guid(e67d3e2fdb18d364f943d685c09cb266) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2a55ed9d122f5edf66dfb4f6d2b8362e') in 0.0352699 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 26
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Proxy Games/Stylized Nature Kit Lite/Terrain/Terrain.asset
+  artifactKey: Guid(383c52c5dd0b6304e950169f371ab10e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Proxy Games/Stylized Nature Kit Lite/Terrain/Terrain.asset using Guid(383c52c5dd0b6304e950169f371ab10e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '37dc7972490a3a0a9d8df2285b248cee') in 0.0626849 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Proxy Games/Stylized Nature Kit Lite/Materials/Spruce Tree Branch.mat
+  artifactKey: Guid(9c0a1cda53d749f40a30a84ed1657377) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Proxy Games/Stylized Nature Kit Lite/Materials/Spruce Tree Branch.mat using Guid(9c0a1cda53d749f40a30a84ed1657377) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a0fbb82b15ce96f4bb111568cb192447') in 0.0294992 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Proxy Games/Stylized Nature Kit Lite/Meshes/Foliage/Flower/Flower.fbx
+  artifactKey: Guid(46ceee1e0f8fec547ad8c36842afe15f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Proxy Games/Stylized Nature Kit Lite/Meshes/Foliage/Flower/Flower.fbx using Guid(46ceee1e0f8fec547ad8c36842afe15f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd269c9d626b49f9ab284080c600abf2b') in 0.0373419 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 25
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Free Wood Door Pack/Texture/Door_6/Door_6_AO.tga
+  artifactKey: Guid(b121e8c9dcd451746a35419fec099ef9) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Free Wood Door Pack/Texture/Door_6/Door_6_AO.tga using Guid(b121e8c9dcd451746a35419fec099ef9) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'bdc1d45d7e767504de166a12a7bcfbf5') in 0.0343331 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Free Wood Door Pack/Prefab/Wood/Door_12/Door_12_Yellow.prefab
+  artifactKey: Guid(05a8ff46373673a40af2c112ae04b20b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Free Wood Door Pack/Prefab/Wood/Door_12/Door_12_Yellow.prefab using Guid(05a8ff46373673a40af2c112ae04b20b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '110b3723251d50e6199f749469b2c1e1') in 0.0344969 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 25
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Proxy Games/Stylized Nature Kit Lite/Prefabs/Foliage/Stump
+  artifactKey: Guid(109c278a1c735f543aa16927e85708a2) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Proxy Games/Stylized Nature Kit Lite/Prefabs/Foliage/Stump using Guid(109c278a1c735f543aa16927e85708a2) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ef1161cb340c532caf5165937112de95') in 0.022172 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Proxy Games/Stylized Nature Kit Lite/Meshes/Rocks/Standard Rocks/Standard Rock 5.fbx
+  artifactKey: Guid(650b26816a2483e4c972cd13717f309d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Proxy Games/Stylized Nature Kit Lite/Meshes/Rocks/Standard Rocks/Standard Rock 5.fbx using Guid(650b26816a2483e4c972cd13717f309d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '723d385620707cbdf218f6caa8507aa0') in 0.045235 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 25
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Proxy Games/Stylized Nature Kit Lite/Prefabs/Foliage/Flower/Flower.prefab
+  artifactKey: Guid(43999c511a596754fb989ff074c5955d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Proxy Games/Stylized Nature Kit Lite/Prefabs/Foliage/Flower/Flower.prefab using Guid(43999c511a596754fb989ff074c5955d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f29762d9f8bb03eea43b3fcd48e5a168') in 0.0366137 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 26
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Free Wood Door Pack/Texture/Door_15/Door_15_Normal.tga
+  artifactKey: Guid(b8d44b2a9e324ad47a6824e8349a95fe) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Free Wood Door Pack/Texture/Door_15/Door_15_Normal.tga using Guid(b8d44b2a9e324ad47a6824e8349a95fe) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6a3bf38807f33098aa94b7398864f10d') in 0.0364981 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Free Wood Door Pack/Texture/Door_2/Door_2_Spec.tga
+  artifactKey: Guid(96762064c68aa32418a54ce133a843e3) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Free Wood Door Pack/Texture/Door_2/Door_2_Spec.tga using Guid(96762064c68aa32418a54ce133a843e3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '952f6baf7a383cadebc567f77154a25c') in 0.0333242 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Proxy Games/Stylized Nature Kit Lite/Meshes/Rocks/Standard Rocks/Standard Rock 4.fbx
+  artifactKey: Guid(75ed99bf730d4404d9eec151c5d709ba) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Proxy Games/Stylized Nature Kit Lite/Meshes/Rocks/Standard Rocks/Standard Rock 4.fbx using Guid(75ed99bf730d4404d9eec151c5d709ba) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '13032269fd5e2edd60d5e908ccc976c6') in 0.0454234 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 25
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Proxy Games/Stylized Nature Kit Lite/Meshes/Rocks/Mountain
+  artifactKey: Guid(88d3e258f44a94b4fa2dcab6dbab592d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Proxy Games/Stylized Nature Kit Lite/Meshes/Rocks/Mountain using Guid(88d3e258f44a94b4fa2dcab6dbab592d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '12c7be4be8f06416b2957553a9d8db43') in 0.0263557 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Proxy Games/Stylized Nature Kit Lite/Meshes/Foliage/Trees
+  artifactKey: Guid(907e56acd7a3ecb4f9ea71f5c6551406) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Proxy Games/Stylized Nature Kit Lite/Meshes/Foliage/Trees using Guid(907e56acd7a3ecb4f9ea71f5c6551406) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9c4dcb249289dadac15c2b4d149a46d9') in 0.0228999 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Proxy Games/Stylized Nature Kit Lite/Meshes/Rocks/Standard Rocks
+  artifactKey: Guid(450daff176f0e3b44ab11c45ca4917cd) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Proxy Games/Stylized Nature Kit Lite/Meshes/Rocks/Standard Rocks using Guid(450daff176f0e3b44ab11c45ca4917cd) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2662d5ab1875ced71f9e74794983ea65') in 0.0210929 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Proxy Games/Stylized Nature Kit Lite/Misc/Lighting Settings.lighting
+  artifactKey: Guid(e909468c3193f6944aa2a1ca7ac8f1ab) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Proxy Games/Stylized Nature Kit Lite/Misc/Lighting Settings.lighting using Guid(e909468c3193f6944aa2a1ca7ac8f1ab) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd278661deb4f5585ce39d21567a0793e') in 0.0352708 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Proxy Games/Stylized Nature Kit Lite/Scenes
+  artifactKey: Guid(31c88774902519344ba509dce367ff1a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Proxy Games/Stylized Nature Kit Lite/Scenes using Guid(31c88774902519344ba509dce367ff1a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'eaebfc30aa5d36af662fc0d479af593a') in 0.0205757 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Proxy Games/Stylized Nature Kit Lite/Meshes/Foliage/Trees/Spruce 1.fbx
+  artifactKey: Guid(af68f6de6ee33a841b3b0572f41ddcad) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Proxy Games/Stylized Nature Kit Lite/Meshes/Foliage/Trees/Spruce 1.fbx using Guid(af68f6de6ee33a841b3b0572f41ddcad) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1aab53bc13655b7a9c650e673d269238') in 0.0543636 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 25
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Proxy Games/Stylized Nature Kit Lite/Prefabs/Foliage/Branch
+  artifactKey: Guid(1e852b24dc53670408af1b99aaf7f67c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Proxy Games/Stylized Nature Kit Lite/Prefabs/Foliage/Branch using Guid(1e852b24dc53670408af1b99aaf7f67c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '919380d163bf1ebf06d415db7a6c837a') in 0.0198544 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Proxy Games/Stylized Nature Kit Lite/Meshes/Foliage/Branch/Branch.fbx
+  artifactKey: Guid(9ee3751895b69084d8e785d402243c60) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Proxy Games/Stylized Nature Kit Lite/Meshes/Foliage/Branch/Branch.fbx using Guid(9ee3751895b69084d8e785d402243c60) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f26f9932e03534f429e6a4bfe6913485') in 0.0444843 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 25
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Proxy Games/Stylized Nature Kit Lite/Scenes/Main Demo Scene/Main Demo Scene.unity
+  artifactKey: Guid(ccc5b6334ec377b498ce4052ba9f1134) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Proxy Games/Stylized Nature Kit Lite/Scenes/Main Demo Scene/Main Demo Scene.unity using Guid(ccc5b6334ec377b498ce4052ba9f1134) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '51f9de2f3c1c5567ae56066854aa655a') in 0.6066563 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Proxy Games/Stylized Nature Kit Lite/Meshes/Rocks/Rock Cliffs/Rock Cliff 1.fbx
+  artifactKey: Guid(0d471cc3db39dc847803964edbb2f4b4) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Proxy Games/Stylized Nature Kit Lite/Meshes/Rocks/Rock Cliffs/Rock Cliff 1.fbx using Guid(0d471cc3db39dc847803964edbb2f4b4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6b3470a437bd47af46e2770d05c59598') in 0.0416869 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 25
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Proxy Games/Stylized Nature Kit Lite/Terrain
+  artifactKey: Guid(034ca5588deabdf4fa603d0a04ffac75) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Proxy Games/Stylized Nature Kit Lite/Terrain using Guid(034ca5588deabdf4fa603d0a04ffac75) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f4b8ba2ce3bab0f8c72a45b3d1dcb29c') in 0.0263101 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Proxy Games/Stylized Nature Kit Lite/Textures/Color Palette.png
+  artifactKey: Guid(7a7b50c8e3f46334b94675bfece2d781) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Proxy Games/Stylized Nature Kit Lite/Textures/Color Palette.png using Guid(7a7b50c8e3f46334b94675bfece2d781) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b7d3d9e1fb066d6f5031701f90d549ac') in 0.033946 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Proxy Games/Stylized Nature Kit Lite/Materials/Color Palette.mat
+  artifactKey: Guid(b725cacc7387b1f4e991c4bdfcd832c8) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Proxy Games/Stylized Nature Kit Lite/Materials/Color Palette.mat using Guid(b725cacc7387b1f4e991c4bdfcd832c8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '18310d9616e24d8f0fa8a68d1cbf91d5') in 0.0255646 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Proxy Games/Stylized Nature Kit Lite/Prefabs/Foliage/Trees/Spruce 1.prefab
+  artifactKey: Guid(1f9036ec905b920479091aca9ba81305) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Proxy Games/Stylized Nature Kit Lite/Prefabs/Foliage/Trees/Spruce 1.prefab using Guid(1f9036ec905b920479091aca9ba81305) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c2431e37020867f4ac85c6f49c61acfb') in 0.0434932 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 26
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Proxy Games/Stylized Nature Kit Lite/Textures/Flower.png
+  artifactKey: Guid(acabc7080beed88498a866b9b521c865) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Proxy Games/Stylized Nature Kit Lite/Textures/Flower.png using Guid(acabc7080beed88498a866b9b521c865) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e441a1e5813b0ad5dec2d494eeff4a5a') in 0.0435344 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Proxy Games
+  artifactKey: Guid(27c9e6401e8a1304f85621e1174d1b65) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Proxy Games using Guid(27c9e6401e8a1304f85621e1174d1b65) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c1391732b031193765e8e686f8b5b4d3') in 0.0191134 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Free Wood Door Pack/Texture/Door_7/Door_7_Albedo.tga
+  artifactKey: Guid(1427a118c2a177f49b1ebaa7e658fba4) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Free Wood Door Pack/Texture/Door_7/Door_7_Albedo.tga using Guid(1427a118c2a177f49b1ebaa7e658fba4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '84554b24d3d230657725ca136a428168') in 0.0549196 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Proxy Games/Stylized Nature Kit Lite/Meshes/Rocks/Tiny Rocks/Tiny Rock 4.fbx
+  artifactKey: Guid(18b253297daa2af43bf84f937e396ef5) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Proxy Games/Stylized Nature Kit Lite/Meshes/Rocks/Tiny Rocks/Tiny Rock 4.fbx using Guid(18b253297daa2af43bf84f937e396ef5) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '88dea3015be6f1a3cc59be6797e6e8ad') in 0.0430811 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 25
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Free Wood Door Pack/Prefab/Wood/Door_10/Door_10_Black.prefab
+  artifactKey: Guid(e1b9c1423ac45f24f9228c1bd964ab36) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Free Wood Door Pack/Prefab/Wood/Door_10/Door_10_Black.prefab using Guid(e1b9c1423ac45f24f9228c1bd964ab36) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4134600a4ad1e0681a94c90a446a8b17') in 0.0332029 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 25
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Free Wood Door Pack/Prefab/Wood/Door_7
+  artifactKey: Guid(fa6e1311ec120e847ac670db049ee4cf) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Free Wood Door Pack/Prefab/Wood/Door_7 using Guid(fa6e1311ec120e847ac670db049ee4cf) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7afff24b4d4b1b68431142b689e7cbfc') in 0.0218021 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Free Wood Door Pack/Prefab
+  artifactKey: Guid(90eaf436287913a409779cddc247b5b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Wood Door Pack/Prefab using Guid(90eaf436287913a409779cddc247b5b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e926f3f15a7d6e5a734373f3ad14ff30') in 0.0007768 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Free Wood Door Pack/Prefab/Wood/Door_6/Door_6_Brown.prefab
+  artifactKey: Guid(20ff6c4dd1b3ec14c95f6c81fba10416) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Free Wood Door Pack/Prefab/Wood/Door_6/Door_6_Brown.prefab using Guid(20ff6c4dd1b3ec14c95f6c81fba10416) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a20917002d17567f4f6e5180749b6c7a') in 0.0352042 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 25
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Proxy Games/Stylized Nature Kit Lite/Prefabs/Foliage/Trees/Spruce 2.prefab
+  artifactKey: Guid(04054a3651be51d4193414f850cf6bde) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Proxy Games/Stylized Nature Kit Lite/Prefabs/Foliage/Trees/Spruce 2.prefab using Guid(04054a3651be51d4193414f850cf6bde) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5997c4fc74d99b5ffcd3026e328636e4') in 0.0291806 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 26
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Free Wood Door Pack/Materials/Door_2_Materials/Door_2_Milk.mat
+  artifactKey: Guid(59d4e72e204e2a4439f43761a50fd1e6) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Free Wood Door Pack/Materials/Door_2_Materials/Door_2_Milk.mat using Guid(59d4e72e204e2a4439f43761a50fd1e6) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'fc1a15bcda10f7348bb864482f83d6d8') in 0.0457581 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Proxy Games/Stylized Nature Kit Lite/Meshes/Rocks
+  artifactKey: Guid(3d851ea9f4de3854286ecc808f48214f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Proxy Games/Stylized Nature Kit Lite/Meshes/Rocks using Guid(3d851ea9f4de3854286ecc808f48214f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a8f7856eca6a5a0b9c72226127e05a9c') in 0.0175651 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Free Wood Door Pack/Materials/Door_6_Materials/Door_6_Black.mat
+  artifactKey: Guid(b4cb0513984e72145b40a80f772ef103) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Free Wood Door Pack/Materials/Door_6_Materials/Door_6_Black.mat using Guid(b4cb0513984e72145b40a80f772ef103) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c6ff1be0cc1d00dcf44247aa7c386c78') in 0.044119 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Free Wood Door Pack/Prefab/Wood/Door_3/Door_3_Brown.prefab
+  artifactKey: Guid(83b0e1aa6fd302d48bf48b1a30f9031c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Free Wood Door Pack/Prefab/Wood/Door_3/Door_3_Brown.prefab using Guid(83b0e1aa6fd302d48bf48b1a30f9031c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '66346944bc79c5802a611eb589b07dcd') in 0.0594749 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 25
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Free Wood Door Pack/Prefab/Wood/Door_14/Door_14_White.prefab
+  artifactKey: Guid(0ee90cd048ddc8d47970df26d7619cf9) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Free Wood Door Pack/Prefab/Wood/Door_14/Door_14_White.prefab using Guid(0ee90cd048ddc8d47970df26d7619cf9) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '312af55ac161ff555ae0a6cd946d63b0') in 0.0346879 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 25
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Free Wood Door Pack/Materials/Door_14_Materials/Door_14_Yellow.mat
+  artifactKey: Guid(e92af841bf0c4e642a6ea829433d992e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Free Wood Door Pack/Materials/Door_14_Materials/Door_14_Yellow.mat using Guid(e92af841bf0c4e642a6ea829433d992e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8ea984a7424ce3617d304bf5b51e91ca') in 0.0354942 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Free Wood Door Pack/Materials/SkyboxProcedural.mat
+  artifactKey: Guid(dce25ada87405a64c943cc71f7db0f05) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Free Wood Door Pack/Materials/SkyboxProcedural.mat using Guid(dce25ada87405a64c943cc71f7db0f05) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0b528dab74860b3a68faa6ac83687681') in 0.0235401 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Free Wood Door Pack/Prefab/Wood
+  artifactKey: Guid(cc3166f6acf83eb4ab14ae55d6abc481) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Wood Door Pack/Prefab/Wood using Guid(cc3166f6acf83eb4ab14ae55d6abc481) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '79543f58306da7ff00f6e0bccc1ce282') in 0.0007772 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Free Wood Door Pack/Prefab/Wood/Door_5/Door_5_Black.prefab
+  artifactKey: Guid(7813b0adcc8b7bd42a85149ab445129f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Free Wood Door Pack/Prefab/Wood/Door_5/Door_5_Black.prefab using Guid(7813b0adcc8b7bd42a85149ab445129f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '94783dfed7e8ed30f588a2e8a597d22e') in 0.0368799 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 25
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Proxy Games/Stylized Nature Kit Lite/Materials/Skybox.mat
+  artifactKey: Guid(03e2616f5befa194da5c803432a7da3a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Proxy Games/Stylized Nature Kit Lite/Materials/Skybox.mat using Guid(03e2616f5befa194da5c803432a7da3a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd2ced1b0c55dfcba971add21608eb255') in 0.0247526 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Free Wood Door Pack/Materials/Door_3_Materials/Door_3_Black.mat
+  artifactKey: Guid(52a3747c6aad15c4d9fad3fa695a530a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Free Wood Door Pack/Materials/Door_3_Materials/Door_3_Black.mat using Guid(52a3747c6aad15c4d9fad3fa695a530a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'cec6835af41c1442c359d6da22fbf4ec') in 0.0426526 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Proxy Games/Stylized Nature Kit Lite/Meshes/Foliage
+  artifactKey: Guid(96f36e8eb50d20044963165a7660f0df) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Proxy Games/Stylized Nature Kit Lite/Meshes/Foliage using Guid(96f36e8eb50d20044963165a7660f0df) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5487934460ae49c1ae7dde575a8c1d31') in 0.0222479 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Free Wood Door Pack/Prefab/Wood/Door_10/Door_10_Milk.prefab
+  artifactKey: Guid(fd6733b8707ed3e44b5e4a42c4afface) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Free Wood Door Pack/Prefab/Wood/Door_10/Door_10_Milk.prefab using Guid(fd6733b8707ed3e44b5e4a42c4afface) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '57def393964430ec9da3b6225466526a') in 0.0497844 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 25
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Free Wood Door Pack/Materials/Door_13_Materials/Door_13_Venge.mat
+  artifactKey: Guid(cb82ec99a1eff3d4cb82098cd3036b90) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Free Wood Door Pack/Materials/Door_13_Materials/Door_13_Venge.mat using Guid(cb82ec99a1eff3d4cb82098cd3036b90) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '99a37af76088eacd7e4f61713c2625a2') in 0.0424667 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Free Wood Door Pack/Materials/Door_6_Materials/Door_6_Coffe.mat
+  artifactKey: Guid(64c86963208db4746a11c00c2c2a83e6) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Free Wood Door Pack/Materials/Door_6_Materials/Door_6_Coffe.mat using Guid(64c86963208db4746a11c00c2c2a83e6) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '805775cf4fd0346308fc2031727ed5c4') in 0.0432807 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Free Wood Door Pack/Texture/Materials/BG.mat
+  artifactKey: Guid(a5c25a2d30c5e5f4dab0894bc13d08b9) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Free Wood Door Pack/Texture/Materials/BG.mat using Guid(a5c25a2d30c5e5f4dab0894bc13d08b9) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2f8c867fca9eb3cec64adfee62ddc041') in 0.0361315 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Proxy Games/Stylized Nature Kit Lite/Textures/Terrain Dirt.png
+  artifactKey: Guid(ddee476c014d3ca43ad80e7c46dacd8c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Proxy Games/Stylized Nature Kit Lite/Textures/Terrain Dirt.png using Guid(ddee476c014d3ca43ad80e7c46dacd8c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c7f8acd34a75dab0557cae865846a266') in 0.0378579 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Free Wood Door Pack/Texture/Door_6/Door_6_Spec.tga
+  artifactKey: Guid(1a36545627bb79142b69099d8a7bec7c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Free Wood Door Pack/Texture/Door_6/Door_6_Spec.tga using Guid(1a36545627bb79142b69099d8a7bec7c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e8756f75d837af89699d372f8c237de1') in 0.0424488 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.091683 seconds.
+  path: Assets/Free Wood Door Pack/Prefab/Wood/Door_2/Door_2_Coffe.prefab
+  artifactKey: Guid(0456882ebacfb074f93134e3ae2b40ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Wood Door Pack/Prefab/Wood/Door_2/Door_2_Coffe.prefab using Guid(0456882ebacfb074f93134e3ae2b40ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3a63f99e9472ba2d804dc0d66f52b06d') in 13.6521383 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 34
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Free Wood Door Pack/Materials/Door_14_Materials/Door_14_Brown.mat
+  artifactKey: Guid(6351314f81cdf19419a2b22103f4d478) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Free Wood Door Pack/Materials/Door_14_Materials/Door_14_Brown.mat using Guid(6351314f81cdf19419a2b22103f4d478) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '232d2beaf3dbb55b2f07edea9cb79fac') in 0.0488542 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000092 seconds.
+  path: Assets/Free Wood Door Pack/Materials/Door_5_Materials/Door_5_Milk.mat
+  artifactKey: Guid(a29e6bc22e0d9414e908b61b64ca151c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Free Wood Door Pack/Materials/Door_5_Materials/Door_5_Milk.mat using Guid(a29e6bc22e0d9414e908b61b64ca151c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd3916fb7e405b66b2561769457982e7a') in 0.0465533 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Free Wood Door Pack/Materials/Door_9_Materials/Door_9_Coffe.mat
+  artifactKey: Guid(161d244c98aeed741bcef00df2053ef2) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Free Wood Door Pack/Materials/Door_9_Materials/Door_9_Coffe.mat using Guid(161d244c98aeed741bcef00df2053ef2) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9720f9711c42ab4d8b1df82354cabb3e') in 0.0445593 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Free Wood Door Pack/Materials/Door_9_Materials/Door_9_Brown.mat
+  artifactKey: Guid(ab06ad36a7ab76148973ec498e422f5d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Free Wood Door Pack/Materials/Door_9_Materials/Door_9_Brown.mat using Guid(ab06ad36a7ab76148973ec498e422f5d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ffc103d5b0e21a3f6322d81498e48a9f') in 0.0589148 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/Free Wood Door Pack/Prefab/Wood/Door_2/Door_2_Venge.prefab
+  artifactKey: Guid(ba907d7a8d489d249b23cdd63f1cd0c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Wood Door Pack/Prefab/Wood/Door_2/Door_2_Venge.prefab using Guid(ba907d7a8d489d249b23cdd63f1cd0c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '36c8ca6d9bfa866a88af6083270456c4') in 0.0767348 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 34
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Free Wood Door Pack/Prefab/Wood/Door_2/Door_2_White.prefab
+  artifactKey: Guid(0d14cbb38e9cb274aa98f316acbd10cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Wood Door Pack/Prefab/Wood/Door_2/Door_2_White.prefab using Guid(0d14cbb38e9cb274aa98f316acbd10cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'deec0d6c3c5ada6188836ade4d9efa76') in 0.068571 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 34
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.988797 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(99c9720ab356a0642a771bea13969a05) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scenes/SampleScene.unity using Guid(99c9720ab356a0642a771bea13969a05) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '01db2b07d3709ddccd4f140773d9575e') in 0.0287678 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
